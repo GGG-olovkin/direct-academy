@@ -1,0 +1,180 @@
+{
+  "menu": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "home": "Startseite",
+    "blog": "Blog",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren"
+  },
+  "sections": {
+    "about": {
+      "page": {
+        "title": "Über Direct Academy",
+        "description": "Bei Direct Academy setzen wir uns dafür ein, das Sprachenlernen für alle zugänglich, effektiv und unterhaltsam zu gestalten. Wir sind überzeugt, dass das Erlernen einer neuen Sprache nicht nur Wissen vermittelt, sondern auch neue Möglichkeiten eröffnet, verschiedene Kulturen entdecken lässt und die Kommunikationsfähigkeiten verbessert. 🔹 Zugänglichkeit: Unsere Kurse sind für Lernende aller Altersgruppen und Niveaus konzipiert. Egal, ob Sie Anfänger oder Fortgeschrittener sind, wir bieten die passende Methode für Ihre Bedürfnisse. 🔹 Effektivität: Durch den Einsatz moderner Lehrmethoden und interaktiver Technologien gestalten wir den Lernprozess schneller und effizienter. Mit erfahrenen Lehrkräften und unserem einzigartigen Lernansatz können Schüler eine neue Sprache in kurzer Zeit beherrschen. 🔹 Spaß am Lernen: Sprachenlernen sollte nicht nur aus Grammatikregeln und Prüfungen bestehen. Wir bereichern unseren Unterricht mit spannenden Aufgaben, realen Dialogen und interaktiven Spielen, um das Lernen unterhaltsamer zu machen.",
+        "meta": {
+          "title": "Über Direct Academy | Exzellenz im Sprachenlernen",
+          "description": "Erfahren Sie mehr über Direct Academys innovativen Ansatz zum Sprachunterricht und unser Engagement für den Erfolg der Studenten."
+        }
+      }
+    },
+    "brands": {
+      "title": "Wir sind bereit zu helfen",
+      "subtitle": "Es gibt viele Variationen von Lorem Ipsum Passagen, aber die Mehrheit hat in irgendeiner Form Änderungen erfahren."
+    },
+    "testimonials": {
+      "title": "Erfolgsgeschichten unserer Studenten",
+      "subtitle": "Hören Sie von unseren Studenten, die ihre Sprachlernziele mit Direct Academy erreicht haben.",
+      "items": [
+        {
+          "id": 1,
+          "name": "Lisa Schmidt",
+          "designation": "Englisch-Studentin",
+          "content": "Dank Direct Academy habe ich mein Englisch in nur 6 Monaten vom Anfänger- auf ein fortgeschrittenes Niveau verbessert. Die Lehrer sind fantastisch und die Methoden funktionieren wirklich!",
+          "image": "/images/testimonials/auth-01.png",
+          "imageAlt": "Testimonial Autor",
+          "star": 5
+        },
+        {
+          "id": 2,
+          "name": "Thomas Weber",
+          "designation": "Spanisch-Student",
+          "content": "Die kleinen Gruppenklassen und persönliche Betreuung haben mir geholfen, Selbstvertrauen beim Spanischsprechen zu gewinnen. Ich nutze es jetzt täglich bei der Arbeit.",
+          "image": "/images/testimonials/auth-02.png",
+          "imageAlt": "Testimonial Autor",
+          "star": 5
+        },
+        {
+          "id": 3,
+          "name": "Anna Müller",
+          "designation": "Französisch-Studentin",
+          "content": "Der hybride Lernansatz ist perfekt für meinen vollen Zeitplan. Ich kann online üben und bei Bedarf am Präsenzunterricht teilnehmen.",
+          "image": "/images/testimonials/auth-03.png",
+          "imageAlt": "Testimonial Autor",
+          "star": 5
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Einfache und erschwingliche Preise",
+      "subtitle": "Es gibt viele Variationen von Lorem Ipsum Passagen, aber die Mehrheit hat in irgendeiner Form Änderungen erfahren.",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich"
+    },
+    "blog": {
+      "title": "Unsere neuesten Blogbeiträge",
+      "subtitle": "Es gibt viele Variationen von Lorem Ipsum Passagen, aber die Mehrheit hat in irgendeiner Form Änderungen erfahren."
+    },
+    "contact": {
+      "title": "Brauchen Sie Hilfe? Öffnen Sie ein Ticket",
+      "subtitle": "Unser Support-Team wird sich schnellstmöglich per E-Mail bei Ihnen melden.",
+      "form": {
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "message": "Ihre Nachricht",
+        "submit": "Ticket einreichen"
+      },
+      "breadcrumb": {
+        "title": "Kontakt Seite",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      }
+    },
+    "hero": {
+      "title": "Sprachen lernen mit ",
+      "description": "Werden Sie Teil unserer Sprachlern-Community und meistern Sie neue Sprachen mit erfahrenen Lehrern, interaktiven Lektionen und personalisierten Lernpfaden.",
+      "getStarted": "Jetzt Starten",
+      "learnMore": "Mehr Erfahren"
+    },
+    "features": {
+      "title": "Warum Direct Academy?",
+      "subtitle": "Es gibt viele Variationen von Lorem Ipsum Passagen, aber die Mehrheit hat in irgendeiner Form Änderungen erfahren.",
+      "items": {
+        "courses": {
+          "title": "Umfassende Kurse",
+          "description": "Breites Angebot an Sprachkursen für alle Niveaus, von Anfängern bis Fortgeschrittene."
+        },
+        "progress": {
+          "title": "Fortschritt verfolgen",
+          "description": "Verfolgen Sie Ihre Lernreise mit detaillierter Fortschrittsverfolgung und Leistungsanalyse."
+        },
+        "community": {
+          "title": "Aktive Gemeinschaft",
+          "description": "Werden Sie Teil unserer lebendigen Gemeinschaft von Sprachlernenden und üben Sie mit Muttersprachlern weltweit."
+        },
+        "flexibility": {
+          "title": "Flexibles Lernen",
+          "description": "Lernen Sie in Ihrem eigenen Tempo mit flexiblen Zeitplänen und Online-Lernoptionen."
+        },
+        "certified": {
+          "title": "Zertifizierte Lehrer",
+          "description": "Lernen Sie von erfahrenen und zertifizierten Sprachlehrern, die mit Leidenschaft unterrichten."
+        },
+        "interactive": {
+          "title": "Interaktives Lernen",
+          "description": "Beschäftigen Sie sich mit interaktiven Übungen, realen Szenarien und Multimedia-Inhalten."
+        }
+      }
+    },
+    "video": {
+      "title": "Wir sind bereit zu helfen",
+      "description": "Es gibt viele Variationen von Lorem Ipsum Passagen, aber die Mehrheit hat in irgendeiner Form Änderungen erfahren.",
+      "imageAlt": "Video-Bild",
+      "playButton": "Video-Wiedergabe-Button"
+    },
+    "aboutOne": {
+      "title": "Lernen Sie Sprachen auf intelligente Weise",
+      "description": "Unser innovativer Ansatz verbindet traditionelle Lehrmethoden mit moderner Technologie für ein spannendes und effektives Lernerlebnis.",
+      "imageAlt": "Über uns Abschnitt eins Bild",
+      "features": {
+        "native": "Muttersprachler",
+        "small": "Kleine Gruppen",
+        "personal": "Persönliche Betreuung",
+        "methods": "Moderne Methoden",
+        "practice": "Regelmäßige Übung",
+        "materials": "Qualitätsmaterialien"
+      }
+    },
+    "aboutTwo": {
+      "imageAlt": "Über uns Bild",
+      "features": {
+        "online": {
+          "title": "Online-Lernen",
+          "description": "Greifen Sie mit unserer hochmodernen Online-Lernplattform jederzeit und überall auf Ihre Lektionen zu."
+        },
+        "hybrid": {
+          "title": "Hybrides Lernen",
+          "description": "Kombinieren Sie Online- und Präsenzunterricht für die effektivste Sprachlernerfahrung."
+        },
+        "practice": {
+          "title": "Übungssitzungen",
+          "description": "Regelmäßige Konversationsübungen mit Muttersprachlern zur Verbesserung Ihrer Sprechfähigkeiten."
+        }
+      }
+    },
+    "footer": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+      "usefulLinks": {
+        "title": "Nützliche Links",
+        "blog": "Blog",
+        "pricing": "Preise",
+        "about": "Über uns"
+      },
+      "terms": {
+        "title": "Bedingungen",
+        "tos": "AGB",
+        "privacyPolicy": "Datenschutzerklärung",
+        "refundPolicy": "Rückgaberecht"
+      },
+      "support": {
+        "title": "Support & Hilfe",
+        "ticket": "Support-Ticket öffnen",
+        "termsOfUse": "Nutzungsbedingungen",
+        "about": "Über uns"
+      },
+      "credits": {
+        "text": "Vorlage von",
+        "and": "und"
+      }
+    }
+  }
+}

@@ -1,20 +1,30 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import SectionTitle from "../Common/SectionTitle";
-
 import ModalVideo from "react-modal-video";
 
 const Video = () => {
+  const { t } = useTranslation();
   const [isOpen, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title={t('sections.video.title')}
+          paragraph={t('sections.video.description')}
           center
           mb="80px"
         />
@@ -26,10 +36,10 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video.jpg" alt="video image" fill />
+                <Image src="/images/video/video.jpg" alt={t('sections.video.imageAlt')} fill />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
-                    aria-label="video play button"
+                    aria-label={t('sections.video.playButton')}
                     onClick={() => setOpen(true)}
                     className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >

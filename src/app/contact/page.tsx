@@ -1,22 +1,28 @@
+'use client';
+
+import { useTranslation } from 'react-i18next';
+import { useState, useEffect } from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
-};
-
 const ContactPage = () => {
+  const { t } = useTranslation();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName={t('sections.contact.breadcrumb.title')}
+        description={t('sections.contact.breadcrumb.description')}
       />
-
       <Contact />
     </>
   );

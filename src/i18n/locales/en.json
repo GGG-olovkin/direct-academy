@@ -1,0 +1,180 @@
+{
+  "menu": {
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home",
+    "blog": "Blog",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "sections": {
+    "about": {
+      "page": {
+        "title": "About Direct Academy",
+        "description": "At Direct Academy, we are committed to making language learning accessible, effective, and enjoyable for everyone. We believe that learning a new language is not just about acquiring knowledge, but also about unlocking new opportunities, discovering diverse cultures, and enhancing communication skills. 🔹 Accessibility: Our courses are designed for learners of all levels and ages. Whether you are a beginner or an advanced speaker, we offer the right methodology tailored to your needs. 🔹 Effectiveness: We use modern teaching methods and interactive technology to make the learning process faster and more efficient. With experienced teachers and our unique learning approach, students can master a new language in a short time. 🔹 Fun Learning: Language learning should not be limited to grammar rules and exams. We enrich our lessons with engaging activities, real-life conversations, and interactive games to make the process more enjoyable.",
+        "meta": {
+          "title": "About Direct Academy | Language Learning Excellence",
+          "description": "Learn about Direct Academy's innovative approach to language teaching and our commitment to student success."
+        }
+      }
+    },
+    "brands": {
+      "title": "We are ready to help",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+    },
+    "testimonials": {
+      "title": "Student Success Stories",
+      "subtitle": "Hear from our students who have achieved their language learning goals with Direct Academy.",
+      "items": [
+        {
+          "id": 1,
+          "name": "Sarah Johnson",
+          "designation": "English Student",
+          "content": "Thanks to Direct Academy, I improved my English from beginner to advanced level in just 6 months. The teachers are amazing and the methods really work!",
+          "image": "/images/testimonials/auth-01.png",
+          "imageAlt": "testimonial author",
+          "star": 5
+        },
+        {
+          "id": 2,
+          "name": "Michael Chen",
+          "designation": "German Student",
+          "content": "The small group classes and personalized attention helped me gain confidence in speaking German. I now use it daily in my work.",
+          "image": "/images/testimonials/auth-02.png",
+          "imageAlt": "testimonial author",
+          "star": 5
+        },
+        {
+          "id": 3,
+          "name": "Emma Martinez",
+          "designation": "French Student",
+          "content": "The hybrid learning approach is perfect for my busy schedule. I can practice online and attend in-person sessions when needed.",
+          "image": "/images/testimonials/auth-03.png",
+          "imageAlt": "testimonial author",
+          "star": 5
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Simple and Affordable Pricing",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "blog": {
+      "title": "Our Latest Blogs",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+    },
+    "contact": {
+      "title": "Need Help? Open a Ticket",
+      "subtitle": "Our support team will get back to you ASAP via email.",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "submit": "Submit Ticket"
+      },
+      "breadcrumb": {
+        "title": "Contact Page",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      }
+    },
+    "hero": {
+      "title": "Learn Languages with ",
+      "description": "Join our language learning community and master new languages with expert instructors, interactive lessons, and personalized learning paths.",
+      "getStarted": "Start Learning",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Direct Academy?",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "items": {
+        "courses": {
+          "title": "Comprehensive Courses",
+          "description": "Wide range of language courses designed for all proficiency levels, from beginners to advanced learners."
+        },
+        "progress": {
+          "title": "Track Your Progress",
+          "description": "Monitor your learning journey with detailed progress tracking and performance analytics."
+        },
+        "community": {
+          "title": "Active Community",
+          "description": "Join our vibrant community of language learners and practice with native speakers worldwide."
+        },
+        "flexibility": {
+          "title": "Flexible Learning",
+          "description": "Learn at your own pace with our flexible scheduling and online learning options."
+        },
+        "certified": {
+          "title": "Certified Teachers",
+          "description": "Learn from experienced and certified language teachers who are passionate about teaching."
+        },
+        "interactive": {
+          "title": "Interactive Learning",
+          "description": "Engage with interactive exercises, real-world scenarios, and multimedia content."
+        }
+      }
+    },
+    "video": {
+      "title": "We are ready to help",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "imageAlt": "video image",
+      "playButton": "video play button"
+    },
+    "aboutOne": {
+      "title": "Learn Languages the Smart Way",
+      "description": "Our innovative approach combines traditional teaching methods with modern technology to create an engaging and effective learning experience.",
+      "imageAlt": "about section one image",
+      "features": {
+        "native": "Native Speakers",
+        "small": "Small Groups",
+        "personal": "Personal Attention",
+        "methods": "Modern Methods",
+        "practice": "Regular Practice",
+        "materials": "Quality Materials"
+      }
+    },
+    "aboutTwo": {
+      "imageAlt": "about image",
+      "features": {
+        "online": {
+          "title": "Online Learning",
+          "description": "Access your lessons anytime, anywhere with our state-of-the-art online learning platform."
+        },
+        "hybrid": {
+          "title": "Hybrid Learning",
+          "description": "Combine online and in-person classes for the most effective language learning experience."
+        },
+        "practice": {
+          "title": "Practice Sessions",
+          "description": "Regular conversation practice sessions with native speakers to improve your speaking skills."
+        }
+      }
+    },
+    "footer": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+      "usefulLinks": {
+        "title": "Useful Links",
+        "blog": "Blog",
+        "pricing": "Pricing",
+        "about": "About"
+      },
+      "terms": {
+        "title": "Terms",
+        "tos": "TOS",
+        "privacyPolicy": "Privacy Policy",
+        "refundPolicy": "Refund Policy"
+      },
+      "support": {
+        "title": "Support & Help",
+        "ticket": "Open Support Ticket",
+        "termsOfUse": "Terms of Use",
+        "about": "About"
+      },
+      "credits": {
+        "text": "Template by",
+        "and": "and"
+      }
+    }
+  }
+}

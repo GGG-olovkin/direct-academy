@@ -1,3 +1,7 @@
+'use client';
+
+import { useTranslation } from 'react-i18next';
+import { useState, useEffect } from 'react';
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -9,28 +13,32 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
-};
 
 export default function Home() {
+  const { t } = useTranslation();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   return (
-    <>
+    <div className="min-h-screen">
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
+      {/* <Video /> */}
+      {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
-    </>
+    </div>
   );
 }

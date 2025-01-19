@@ -1,0 +1,180 @@
+{
+  "menu": {
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "home": "Ana Səhifə",
+    "blog": "Bloq",
+    "signIn": "Daxil ol",
+    "signUp": "Qeydiyyat"
+  },
+  "sections": {
+    "about": {
+      "page": {
+        "title": "Direct Academy Haqqında",
+        "description": "Direct Academy olaraq, dil öyrənməni hər kəs üçün əlçatan, effektiv və əyləncəli etmək missiyası ilə fəaliyyət göstəririk. Biz inanırıq ki, yeni bir dil öyrənmək yalnız bilik əldə etmək deyil, eyni zamanda yeni imkanlar açmaq, müxtəlif mədəniyyətləri kəşf etmək və ünsiyyət bacarıqlarını inkişaf etdirmək deməkdir. 🔹 Əlçatanlıq: Tədris proqramlarımız müxtəlif yaş qrupları və səviyyələr üçün uyğunlaşdırılmışdır. İstər başlanğıc səviyyəsində, istərsə də irəli səviyyədə olun, sizin üçün ideal metodologiya təklif edirik. 🔹 Effektivlik: Müasir tədris metodlarından və interaktiv texnologiyalardan istifadə edərək, öyrənmə prosesini daha sürətli və təsirli edirik. Peşəkar müəllimlərimiz və unikal tədris yanaşmamız sayəsində tələbələrimiz dili qısa müddətdə mənimsəyə bilirlər. 🔹 Əyləncəli Öyrənmə: Dil öyrənmək yalnız qaydalar və testlərdən ibarət olmamalıdır. Biz dərslərimizi maraqlı tapşırıqlar, canlı ünsiyyət və interaktiv oyunlarla zənginləşdiririk ki, bu da öyrənmə prosesini daha cəlbedici edir.",
+        "meta": {
+          "title": "Direct Academy Haqqında | Dil Öyrənmədə Mükəmməllik",
+          "description": "Direct Academy-nin innovativ dil tədris yanaşması və tələbə uğuruna sadiqliyimiz haqqında məlumat əldə edin."
+        }
+      }
+    },
+    "brands": {
+      "title": "Kömək etməyə hazırıq",
+      "subtitle": "Lorem Ipsum-un bir çox variantı mövcuddur, lakin əksəriyyəti müəyyən formada dəyişikliyə məruz qalıb."
+    },
+    "testimonials": {
+      "title": "Tələbə Uğur Hekayələri",
+      "subtitle": "Direct Academy ilə dil öyrənmə məqsədlərinə çatan tələbələrimizin təəssüratlarını dinləyin.",
+      "items": [
+        {
+          "id": 1,
+          "name": "Aynur Məmmədova",
+          "designation": "İngilis Dili Tələbəsi",
+          "content": "Direct Academy sayəsində 6 ay ərzində ingilis dilini başlanğıc səviyyədən qabaqcıl səviyyəyə qədər inkişaf etdirdim. Müəllimlər əladır və metodlar həqiqətən işə yarayır!",
+          "image": "/images/testimonials/auth-01.png",
+          "imageAlt": "rəy müəllifi",
+          "star": 5
+        },
+        {
+          "id": 2,
+          "name": "Elçin Hüseynov",
+          "designation": "Alman Dili Tələbəsi",
+          "content": "Kiçik qrup dərsləri və fərdi diqqət alman dilində danışmaqda özümə inam qazanmağıma kömək etdi. İndi işimdə hər gün istifadə edirəm.",
+          "image": "/images/testimonials/auth-02.png",
+          "imageAlt": "rəy müəllifi",
+          "star": 5
+        },
+        {
+          "id": 3,
+          "name": "Leyla Əliyeva",
+          "designation": "Fransız Dili Tələbəsi",
+          "content": "Hibrid təhsil yanaşması mənim gərgin qrafikim üçün idealdır. Onlayn məşq edə və lazım olduqda əyani dərslərə qatıla bilirəm.",
+          "image": "/images/testimonials/auth-03.png",
+          "imageAlt": "rəy müəllifi",
+          "star": 5
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Sadə və Sərfəli Qiymətlər",
+      "subtitle": "Lorem Ipsum-un bir çox variantı mövcuddur, lakin əksəriyyəti müəyyən formada dəyişikliyə məruz qalıb.",
+      "monthly": "Aylıq",
+      "yearly": "İllik"
+    },
+    "blog": {
+      "title": "Son Bloq Yazılarımız",
+      "subtitle": "Lorem Ipsum-un bir çox variantı mövcuddur, lakin əksəriyyəti müəyyən formada dəyişikliyə məruz qalıb."
+    },
+    "contact": {
+      "title": "Köməyə Ehtiyacınız var? Bilet Açın",
+      "subtitle": "Dəstək komandamız sizə email vasitəsilə ən qısa zamanda cavab verəcək.",
+      "form": {
+        "name": "Adınız",
+        "email": "Email ünvanınız",
+        "message": "Mesajınız",
+        "submit": "Bilet Göndər"
+      },
+      "breadcrumb": {
+        "title": "Əlaqə Səhifəsi",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      }
+    },
+    "hero": {
+      "title": "Dilləri Bizimlə Öyrənin ",
+      "description": "Ekspert müəllimlərlə, interaktiv dərslərlə və fərdi öyrənmə yolları ilə dil öyrənmə icmamıza qoşulun.",
+      "getStarted": "Öyrənməyə Başla",
+      "learnMore": "Ətraflı Məlumat"
+    },
+    "features": {
+      "title": "Niyə Direct Academy?",
+      "subtitle": "Lorem Ipsum-un bir çox variantı mövcuddur, lakin əksəriyyəti müəyyən formada dəyişikliyə məruz qalıb.",
+      "items": {
+        "courses": {
+          "title": "Hərtərəfli Kurslar",
+          "description": "Başlanğıc səviyyədən qabaqcıl səviyyəyə qədər bütün səviyyələr üçün hazırlanmış geniş dil kursları."
+        },
+        "progress": {
+          "title": "İrəliləyişinizi İzləyin",
+          "description": "Ətraflı irəliləyiş izləmə və performans analitikası ilə öyrənmə səyahətinizi izləyin."
+        },
+        "community": {
+          "title": "Aktiv İcma",
+          "description": "Dil öyrənənlərin canlı icmasına qoşulun və dünya miqyasında ana dili daşıyıcıları ilə təcrübə qazanın."
+        },
+        "flexibility": {
+          "title": "Çevik Öyrənmə",
+          "description": "Çevik cədvəl və onlayn öyrənmə seçimləri ilə öz sürətinizdə öyrənin."
+        },
+        "certified": {
+          "title": "Sertifikatlı Müəllimlər",
+          "description": "Tədrisə həvəsli olan təcrübəli və sertifikatlı dil müəllimlərindən öyrənin."
+        },
+        "interactive": {
+          "title": "İnteraktiv Öyrənmə",
+          "description": "İnteraktiv tapşırıqlar, real həyat ssenarilər və multimedia məzmunu ilə məşğul olun."
+        }
+      }
+    },
+    "video": {
+      "title": "Kömək etməyə hazırıq",
+      "description": "Lorem Ipsum-un bir çox variantı mövcuddur, lakin əksəriyyəti müəyyən formada dəyişikliyə məruz qalıb.",
+      "imageAlt": "video təsviri",
+      "playButton": "video oynatma düyməsi"
+    },
+    "aboutOne": {
+      "title": "Dilləri Ağıllı Şəkildə Öyrənin",
+      "description": "İnnovativ yanaşmamız ənənəvi tədris metodlarını müasir texnologiya ilə birləşdirərək cəlbedici və effektiv öyrənmə təcrübəsi yaradır.",
+      "imageAlt": "haqqımızda birinci şəkil",
+      "features": {
+        "native": "Ana Dili Daşıyıcıları",
+        "small": "Kiçik Qruplar",
+        "personal": "Fərdi Diqqət",
+        "methods": "Müasir Metodlar",
+        "practice": "Müntəzəm Təcrübə",
+        "materials": "Keyfiyyətli Materiallar"
+      }
+    },
+    "aboutTwo": {
+      "imageAlt": "haqqında şəkil",
+      "features": {
+        "online": {
+          "title": "Onlayn Təhsil",
+          "description": "Müasir onlayn təhsil platformamız ilə dərslərinizə istənilən vaxt, istənilən yerdən daxil olun."
+        },
+        "hybrid": {
+          "title": "Hibrid Təhsil",
+          "description": "Ən effektiv dil öyrənmə təcrübəsi üçün onlayn və əyani dərsləri birləşdirin."
+        },
+        "practice": {
+          "title": "Təcrübə Sessiyaları",
+          "description": "Danışıq bacarıqlarınızı təkmilləşdirmək üçün ana dili daşıyıcıları ilə müntəzəm söhbət təcrübəsi sessiyaları."
+        }
+      }
+    },
+    "footer": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+      "usefulLinks": {
+        "title": "Faydalı Linklər",
+        "blog": "Bloq",
+        "pricing": "Qiymətlər",
+        "about": "Haqqımızda"
+      },
+      "terms": {
+        "title": "Şərtlər",
+        "tos": "İstifadə Şərtləri",
+        "privacyPolicy": "Məxfilik Siyasəti",
+        "refundPolicy": "Geri Qaytarma Siyasəti"
+      },
+      "support": {
+        "title": "Dəstək və Kömək",
+        "ticket": "Dəstək Bileti Aç",
+        "termsOfUse": "İstifadə Qaydaları",
+        "about": "Haqqımızda"
+      },
+      "credits": {
+        "text": "Şablon",
+        "and": "və"
+      }
+    }
+  }
+}
