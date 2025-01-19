@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import { Providers } from "./providers";
 import "../styles/index.css";
 import { Suspense } from 'react';
-import Loading from './loading';
+import Loading from "./loading";
 
 export default function RootLayout({
   children,

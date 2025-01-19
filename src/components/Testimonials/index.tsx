@@ -34,7 +34,10 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {(t('sections.testimonials.items', { returnObjects: true }) as any[]).map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+            <SingleTestimonial
+              key={testimonial.id}
+              review={testimonial}
+            />
           ))}
         </div>
 
