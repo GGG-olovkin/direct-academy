@@ -157,11 +157,12 @@
         "title": "Useful Links",
         "blog": "Blog",
         "pricing": "Pricing",
-        "about": "About"
+        "about": "About",
+        "contact": "Contact"
       },
       "terms": {
         "title": "Terms",
-        "tos": "TOS",
+        "tos": "Terms of Service",
         "privacyPolicy": "Privacy Policy",
         "refundPolicy": "Refund Policy"
       },
@@ -172,7 +173,7 @@
         "about": "About"
       },
       "credits": {
-        "text": "Template by",
+        "text": "All rights reserved.",
         "and": "and"
       }
     }

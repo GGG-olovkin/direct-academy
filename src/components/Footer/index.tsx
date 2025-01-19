@@ -18,19 +18,19 @@ const Footer = () => {
 
   const footerLinks = {
     useful: [
-      { href: '/blog', label: 'menu.blog' },
-      { href: '/about', label: 'menu.about' },
-      { href: '/contact', label: 'menu.contact' }
+      { href: '/blog', label: 'sections.footer.usefulLinks.blog' },
+      { href: '/about', label: 'sections.footer.usefulLinks.about' },
+      { href: '/contact', label: 'sections.footer.usefulLinks.contact' }
     ],
     legal: [
-      { href: '/terms-of-service', label: 'footer.terms.tos' },
-      { href: '/privacy-policy', label: 'footer.terms.privacyPolicy' },
-      { href: '/refund-policy', label: 'footer.terms.refundPolicy' }
+      { href: '/terms-of-service', label: 'sections.footer.terms.tos' },
+      { href: '/privacy-policy', label: 'sections.footer.terms.privacyPolicy' },
+      { href: '/refund-policy', label: 'sections.footer.terms.refundPolicy' }
     ],
     support: [
-      { href: '/contact', label: 'footer.support.ticket' },
-      { href: '/terms-of-use', label: 'footer.support.termsOfUse' },
-      { href: '/about', label: 'footer.support.about' }
+      { href: '/contact', label: 'sections.footer.support.ticket' },
+      { href: '/terms-of-use', label: 'sections.footer.support.termsOfUse' },
+      { href: '/about', label: 'sections.footer.support.about' }
     ]
   };
 
@@ -139,7 +139,7 @@ const Footer = () => {
         <div className="mt-12 h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
         <div className="py-8">
           <p className="text-center text-base text-body-color dark:text-body-color-dark">
-            © {new Date().getFullYear()} Direct Academy. {t('sections.footer.rights')}
+            © {new Date().getFullYear()} Direct Academy. {t('sections.footer.credits.text')}
           </p>
         </div>
       </div>
