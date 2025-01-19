@@ -5,17 +5,19 @@ export function useIntersectionObserver(options = {}) {
   const targetRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = targetRef.current;
+
     const observer = new IntersectionObserver(([entry]) => {
       setIsIntersecting(entry.isIntersecting);
     }, options);
 
-    if (targetRef.current) {
-      observer.observe(targetRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (targetRef.current) {
-        observer.unobserve(targetRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, [options]);

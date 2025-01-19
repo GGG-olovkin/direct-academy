@@ -48,4 +48,6 @@ const ThemeToggler = memo(() => {
   );
 });
 
+ThemeToggler.displayName = 'ThemeToggler';
+
 export default ThemeToggler;
