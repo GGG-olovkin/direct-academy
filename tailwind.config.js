@@ -3,10 +3,18 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      './src/**/*.{js,ts,jsx,tsx}',
+    ],
+  },
   darkMode: "class",
   theme: {
     container: {

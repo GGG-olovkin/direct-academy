@@ -1,9 +1,9 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo } from "react";
 
-const ThemeToggler = () => {
+const ThemeToggler = memo(() => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -46,6 +46,6 @@ const ThemeToggler = () => {
       )}
     </button>
   );
-};
+});
 
 export default ThemeToggler;

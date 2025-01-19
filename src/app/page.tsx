@@ -4,15 +4,23 @@ import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
+import dynamic from 'next/dynamic';
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
+
+// Lazy load edilecek bileşenler
+const Testimonials = dynamic(() => import('@/components/Testimonials'), {
+  loading: () => <div>Loading...</div>,
+  ssr: false
+});
+
+const Blog = dynamic(() => import('@/components/Blog'), {
+  loading: () => <div>Loading...</div>
+});
+
+const Features = dynamic(() => import('@/components/Features'), {
+  loading: () => <div>Loading...</div>
+});
 
 export default function Home() {
   const { t } = useTranslation();
@@ -37,7 +45,7 @@ export default function Home() {
       <AboutSectionTwo />
       <Testimonials />
       {/* <Pricing /> */}
-      {/* <Blog /> */}
+      <Blog />
       <Contact />
     </div>
   );
