@@ -16,6 +16,24 @@ const Footer = () => {
     return null;
   }
 
+  const footerLinks = {
+    useful: [
+      { href: '/blog', label: 'menu.blog' },
+      { href: '/about', label: 'menu.about' },
+      { href: '/contact', label: 'menu.contact' }
+    ],
+    legal: [
+      { href: '/terms-of-service', label: 'footer.terms.tos' },
+      { href: '/privacy-policy', label: 'footer.terms.privacyPolicy' },
+      { href: '/refund-policy', label: 'footer.terms.refundPolicy' }
+    ],
+    support: [
+      { href: '/contact', label: 'footer.support.ticket' },
+      { href: '/terms-of-use', label: 'footer.support.termsOfUse' },
+      { href: '/about', label: 'footer.support.about' }
+    ]
+  };
+
   return (
     <footer className="relative z-10 overflow-x-hidden bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
       <div className="container mx-auto px-4">
@@ -64,30 +82,16 @@ const Footer = () => {
                 {t('sections.footer.usefulLinks.title')}
               </h2>
               <ul className="space-y-3">
-                <li>
-                  <Link
-                    href="/blog"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.usefulLinks.blog')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/pricing"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.usefulLinks.pricing')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/about"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.usefulLinks.about')}
-                  </Link>
-                </li>
+                {footerLinks.useful.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      {t(link.label)}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -97,30 +101,16 @@ const Footer = () => {
                 {t('sections.footer.terms.title')}
               </h2>
               <ul className="space-y-3">
-                <li>
-                  <Link
-                    href="/terms"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.terms.tos')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/privacy"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.terms.privacyPolicy')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/refund"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.terms.refundPolicy')}
-                  </Link>
-                </li>
+                {footerLinks.legal.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      {t(link.label)}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -130,30 +120,16 @@ const Footer = () => {
                 {t('sections.footer.support.title')}
               </h2>
               <ul className="space-y-3">
-                <li>
-                  <Link
-                    href="/contact"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.support.ticket')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/terms-of-use"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.support.termsOfUse')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/about"
-                    className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
-                    {t('sections.footer.support.about')}
-                  </Link>
-                </li>
+                {footerLinks.support.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      {t(link.label)}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

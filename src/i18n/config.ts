@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { LANGUAGES } from '../constants/languages';
 
-// Dil dosyalarını import edin
+// Dil dosyalarını doğrudan import edelim
 import translationEN from './locales/en.json';
 import translationAZ from './locales/az.json';
 import translationDE from './locales/de.json';
@@ -24,17 +24,14 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: 'en',
-    fallbackLng: 'en',
-    load: 'languageOnly',
-    ns: ['common'],
-    defaultNS: 'common',
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    resources,
+    fallbackLng: LANGUAGES.EN,
+    interpolation: {
+      escapeValue: false
     },
     react: {
-      useSuspense: false,
-    },
+      useSuspense: false
+    }
   });
 
 export default i18n; 

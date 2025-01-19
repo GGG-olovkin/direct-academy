@@ -12,6 +12,11 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  i18n: {
+    locales: ['en', 'az', 'de'],
+    defaultLocale: 'en',
+    localeDetection: true
+  },
 };
 
 module.exports = nextConfig;
