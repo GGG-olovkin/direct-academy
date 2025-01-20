@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { memo } from 'react';
 
 interface Language {
     id: string;
@@ -18,6 +19,77 @@ interface Feature {
     icon: string;
 }
 
+const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+};
+
+// Optimize edilmiş bileşenler
+const LanguageCard = memo(({ language, t }: { language: Language, t: any }) => (
+    <motion.div
+        key={language.id}
+        variants={itemVariants}
+        className="bg-gray-800/50 backdrop-blur-lg rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
+    >
+        <div className="relative h-48">
+            <Image
+                src={language.image}
+                alt={language.name}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover"
+                loading="eager"
+                priority={true}
+            />
+        </div>
+        <div className="p-6">
+            <h3 className="text-2xl font-bold text-white mb-3">
+                {language.name}
+            </h3>
+            <p className="text-gray-300 mb-4">
+                {language.description}
+            </p>
+            <div className="space-y-2">
+                {language.levels.map((level: string) => (
+                    <div
+                        key={level}
+                        className="bg-gray-700/50 px-3 py-2 rounded-lg text-gray-300"
+                    >
+                        {t(`levels.${level}`)}
+                    </div>
+                ))}
+            </div>
+            <Link
+                href={`/courses/${language.id}`}
+                className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-200"
+            >
+                {t('viewDetails')}
+            </Link>
+        </div>
+    </motion.div>
+));
+
+const FeatureCard = memo(({ feature }: { feature: Feature }) => (
+    <motion.div
+        key={feature.title}
+        variants={itemVariants}
+        className="bg-gray-800/50 backdrop-blur-lg rounded-xl p-6"
+    >
+        <div className="text-blue-400 mb-4">
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={feature.icon} />
+            </svg>
+        </div>
+        <h3 className="text-xl font-semibold text-white mb-2">
+            {feature.title}
+        </h3>
+        <p className="text-gray-400">
+            {feature.description}
+        </p>
+    </motion.div>
+));
+
+// Ana bileşen
 const CoursesPage = () => {
     const t = useTranslations('courses');
 
@@ -26,11 +98,6 @@ const CoursesPage = () => {
         visible: {
             transition: { staggerChildren: 0.1 }
         }
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 }
     };
 
     return (
@@ -65,44 +132,7 @@ const CoursesPage = () => {
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                 >
                     {t.raw('languages').map((language: Language) => (
-                        <motion.div
-                            key={language.id}
-                            variants={itemVariants}
-                            className="bg-gray-800/50 backdrop-blur-lg rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
-                        >
-                            <div className="relative h-48">
-                                <Image
-                                    src={language.image}
-                                    alt={language.name}
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                            <div className="p-6">
-                                <h3 className="text-2xl font-bold text-white mb-3">
-                                    {language.name}
-                                </h3>
-                                <p className="text-gray-300 mb-4">
-                                    {language.description}
-                                </p>
-                                <div className="space-y-2">
-                                    {language.levels.map((level: string) => (
-                                        <div
-                                            key={level}
-                                            className="bg-gray-700/50 px-3 py-2 rounded-lg text-gray-300"
-                                        >
-                                            {t(`levels.${level}`)}
-                                        </div>
-                                    ))}
-                                </div>
-                                <Link
-                                    href={`/courses/${language.id}`}
-                                    className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-200"
-                                >
-                                    {t('viewDetails')}
-                                </Link>
-                            </div>
-                        </motion.div>
+                        <LanguageCard key={language.id} language={language} t={t} />
                     ))}
                 </motion.div>
             </section>
@@ -124,23 +154,7 @@ const CoursesPage = () => {
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
                 >
                     {t.raw('features.items').map((feature: Feature) => (
-                        <motion.div
-                            key={feature.title}
-                            variants={itemVariants}
-                            className="bg-gray-800/50 backdrop-blur-lg rounded-xl p-6"
-                        >
-                            <div className="text-blue-400 mb-4">
-                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={feature.icon} />
-                                </svg>
-                            </div>
-                            <h3 className="text-xl font-semibold text-white mb-2">
-                                {feature.title}
-                            </h3>
-                            <p className="text-gray-400">
-                                {feature.description}
-                            </p>
-                        </motion.div>
+                        <FeatureCard key={feature.title} feature={feature} />
                     ))}
                 </motion.div>
             </section>
@@ -148,4 +162,4 @@ const CoursesPage = () => {
     );
 };
 
-export default CoursesPage; 
+export default memo(CoursesPage); 
