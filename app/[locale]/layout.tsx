@@ -1,8 +1,6 @@
 import './globals.css'
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
 import Header from './components/Header';
 import Footer from './components/Footer'
 import type { Metadata } from 'next';
@@ -49,7 +47,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         },
       },
     };
-  } catch (error) {
+  } catch {
     return {
       title: 'Direct Academy',
       description: 'Professional Language School in Baku',
@@ -60,7 +58,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 async function loadMessages(locale: Locale) {
   try {
     return (await import(`../../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     notFound();
   }
 }

@@ -19,13 +19,18 @@ interface Feature {
     icon: string;
 }
 
+interface TranslationFunction {
+    (key: string): string;
+    raw: (key: string) => any[];
+}
+
 const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 }
 };
 
 // Optimize edilmiş bileşenler
-const LanguageCard = memo(({ language, t }: { language: Language, t: any }) => (
+const LanguageCard = memo(({ language, t }: { language: Language, t: TranslationFunction }) => (
     <motion.div
         key={language.id}
         variants={itemVariants}
@@ -68,6 +73,7 @@ const LanguageCard = memo(({ language, t }: { language: Language, t: any }) => (
         </div>
     </motion.div>
 ));
+LanguageCard.displayName = 'LanguageCard';
 
 const FeatureCard = memo(({ feature }: { feature: Feature }) => (
     <motion.div
@@ -88,6 +94,7 @@ const FeatureCard = memo(({ feature }: { feature: Feature }) => (
         </p>
     </motion.div>
 ));
+FeatureCard.displayName = 'FeatureCard';
 
 // Ana bileşen
 const CoursesPage = () => {
