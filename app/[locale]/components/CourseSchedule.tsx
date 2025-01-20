@@ -18,6 +18,9 @@ const CourseSchedule = () => {
 
     const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
+    // Günlük programı al ve kontrol et
+    const dailySchedule = t.raw(`schedule.${selectedDay}`) || [];
+
     return (
         <section className="py-24 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
@@ -69,9 +72,9 @@ const CourseSchedule = () => {
                     transition={{ duration: 0.5 }}
                     className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
                 >
-                    {t.raw(`schedule.${selectedDay}`).map((session: Schedule) => (
+                    {dailySchedule.map((session: Schedule) => (
                         <motion.div
-                            key={session.day}
+                            key={`${session.course}-${session.times[0]}`}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -80,26 +83,26 @@ const CourseSchedule = () => {
                         >
                             <div className="flex items-center justify-between mb-4">
                                 <span className="text-blue-400 font-semibold">
-                                    {session.times[0]}
+                                    {session.times?.[0] || ''}
                                 </span>
-                                <span className={`px-3 py-1 rounded-full text-sm ${session.levels[0] === 'available'
-                                    ? 'bg-green-500/20 text-green-400'
-                                    : 'bg-red-500/20 text-red-400'
+                                <span className={`px-3 py-1 rounded-full text-sm ${session.levels?.[0] === 'available'
+                                        ? 'bg-green-500/20 text-green-400'
+                                        : 'bg-red-500/20 text-red-400'
                                     }`}>
-                                    {t(`availability.${session.levels[0]}`)}
+                                    {t(`availability.${session.levels?.[0] || 'unavailable'}`)}
                                 </span>
                             </div>
                             <h3 className="text-xl font-semibold text-white mb-2">
-                                {session.course}
+                                {session.course || ''}
                             </h3>
                             <p className="text-gray-400 mb-4">
-                                {session.description}
+                                {session.description || ''}
                             </p>
                             <div className="flex items-center text-gray-300">
                                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                 </svg>
-                                {session.instructor}
+                                {session.instructor || ''}
                             </div>
                         </motion.div>
                     ))}

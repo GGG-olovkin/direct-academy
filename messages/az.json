@@ -193,11 +193,15 @@
         "schedule": {
             "monday": [
                 {
-                    "time": "09:00 - 10:30",
-                    "course": "İngilis dili (A1)",
-                    "description": "Başlanğıc səviyyə qrup dərsi",
-                    "instructor": "Sarah Johnson",
-                    "availability": "available"
+                    "times": [
+                        "09:00 - 10:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "İngilis dili",
+                    "description": "Başlanğıc səviyyəsi",
+                    "instructor": "Sarah Johnson"
                 },
                 {
                     "time": "11:00 - 12:30",
