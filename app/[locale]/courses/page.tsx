@@ -21,7 +21,7 @@ interface Feature {
 
 interface TranslationFunction {
     (key: string): string;
-    raw: (key: string) => any[];
+    raw: (key: string) => Array<Language | Feature>;
 }
 
 const itemVariants = {
