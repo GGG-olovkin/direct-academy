@@ -180,7 +180,8 @@
         "subtitle": "Choose the time that suits you",
         "availability": {
             "available": "Available",
-            "full": "Full"
+            "full": "Full",
+            "unavailable": "Unavailable"
         },
         "days": {
             "monday": "Monday",

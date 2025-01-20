@@ -180,7 +180,8 @@
         "subtitle": "Sizə uyğun vaxtı seçin",
         "availability": {
             "available": "Yer var",
-            "full": "Dolu"
+            "full": "Dolu",
+            "unavailable": "Mövcud deyil"
         },
         "days": {
             "monday": "Bazar ertəsi",
@@ -204,18 +205,26 @@
                     "instructor": "Sarah Johnson"
                 },
                 {
-                    "time": "11:00 - 12:30",
+                    "times": [
+                        "11:00 - 12:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "Alman dili (B1)",
                     "description": "Orta səviyyə qrup dərsi",
-                    "instructor": "Hans Weber",
-                    "availability": "available"
+                    "instructor": "Hans Weber"
                 },
                 {
-                    "time": "14:00 - 15:30",
+                    "times": [
+                        "14:00 - 15:30"
+                    ],
+                    "levels": [
+                        "full"
+                    ],
                     "course": "İngilis dili (B2)",
                     "description": "Orta-yuxarı səviyyə qrup dərsi",
-                    "instructor": "John Smith",
-                    "availability": "full"
+                    "instructor": "John Smith"
                 }
             ],
             "tuesday": [

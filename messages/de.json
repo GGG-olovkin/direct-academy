@@ -180,7 +180,8 @@
         "subtitle": "Wählen Sie die Zeit, die Ihnen am besten passt",
         "availability": {
             "available": "Verfügbar",
-            "full": "Ausgebucht"
+            "full": "Voll",
+            "unavailable": "Nicht verfügbar"
         },
         "days": {
             "monday": "Montag",
