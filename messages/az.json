@@ -1,0 +1,455 @@
+{
+    "HomePage": {
+        "title": "salam Xos gelmisiniz",
+        "about": "Burada melumat olacaq"
+    },
+    "hero": {
+        "title": "Gələcəyinizə İnvestisiya Edin",
+        "subtitle": "Direct Academy ilə xarici dil öyrənmək indi daha asan",
+        "description": "Professional müəllimlərimiz və müasir tədris metodlarımızla siz də qısa zamanda xarici dil öyrənə bilərsiniz",
+        "cta": {
+            "primary": "Kurslarımızı Kəşf Edin",
+            "secondary": "Pulsuz Dərs Alın"
+        },
+        "stats": {
+            "students": "Məzun Tələbə",
+            "courses": "Aktiv Kurs",
+            "teachers": "Professional Müəllim"
+        }
+    },
+    "header": {
+        "home": "Ana Səhifə",
+        "courses": "Kurslarımız",
+        "about": "Haqqımızda",
+        "contact": "Əlaqə",
+        "language": "Dil seçimi"
+    },
+    "footer": {
+        "quickLinks": "Sürətli Keçidlər",
+        "home": "Ana Səhifə",
+        "courses": "Kurslarımız",
+        "about": "Haqqımızda",
+        "contact": "Əlaqə",
+        "followUs": "Bizi izləyin",
+        "copyright": "© 2024 Direct Academy. Bütün hüquqlar qorunur.",
+        "address": "Ünvan: Nümunə küçəsi 1, Bakı",
+        "phone": "Telefon: +994 50 123 45 67",
+        "email": "E-poçt: info@directacademy.com"
+    },
+    "services": {
+        "title": "Xidmətlərimiz",
+        "subtitle": "Təhsil Həllərimiz",
+        "items": [
+            {
+                "title": "Qrup Dərsləri",
+                "description": "Kiçik qruplarda interaktiv dil tədrisi",
+                "icon": "group"
+            },
+            {
+                "title": "Fərdi Dərslər",
+                "description": "Şəxsi ehtiyaclarınıza uyğun fərdi təhsil",
+                "icon": "personal"
+            },
+            {
+                "title": "Online Dərslər",
+                "description": "Evdən rahat şəkildə dil öyrənmə imkanı",
+                "icon": "online"
+            },
+            {
+                "title": "Korporativ Təlim",
+                "description": "Şirkətlər üçün xüsusi hazırlanmış proqramlar",
+                "icon": "corporate"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "Tələbələrimizin Rəyləri",
+        "subtitle": "Uğur Hekayələri",
+        "items": [
+            {
+                "name": "Əli Məmmədov",
+                "role": "İngilis dili tələbəsi",
+                "image": "/testimonials/1.jpg",
+                "text": "Direct Academy sayəsində 6 ay ərzində B2 səviyyəsinə çatdım. Müəllimlərin peşəkarlığı və dəstəyi əvəzolunmazdır."
+            },
+            {
+                "name": "Aygün Əliyeva",
+                "role": "Alman dili tələbəsi",
+                "image": "/testimonials/2.jpg",
+                "text": "Online dərslər mənim üçün çox rahat oldu. İşdən sonra evdən dərslərdə iştirak edə bilirəm."
+            },
+            {
+                "name": "Murad Həsənov",
+                "role": "Korporativ müştəri",
+                "image": "/testimonials/3.jpg",
+                "text": "Şirkətimiz üçün hazırlanan xüsusi proqram çox effektiv oldu. Əməkdaşlarımız qısa müddətdə böyük irəliləyiş əldə etdilər."
+            }
+        ]
+    },
+    "whyUs": {
+        "title": "Niyə Direct Academy?",
+        "subtitle": "Hərtərəfli və innovativ tədris metodlarımızla dil öyrənməyə inqilabi yanaşmanı təcrübə edin",
+        "features": [
+            {
+                "title": "Hərtərəfli Kurslar",
+                "description": "Başlanğıc səviyyədən qabaqcıl səviyyəyə qədər bütün səviyyələr üçün hazırlanmış geniş dil kursları.",
+                "icon": "courses"
+            },
+            {
+                "title": "İrəliləyişinizi İzləyin",
+                "description": "Ətraflı irəliləyiş izləmə və performans analitikası ilə öyrənmə səyahətinizi izləyin.",
+                "icon": "progress"
+            },
+            {
+                "title": "Aktiv İcma",
+                "description": "Dil öyrənənlərin canlı icmasına qoşulun və dünya miqyasında ana dili daşıyıcıları ilə təcrübə qazanın.",
+                "icon": "community"
+            },
+            {
+                "title": "Çevik Öyrənmə",
+                "description": "Çevik cədvəl və onlayn öyrənmə seçimləri ilə öz sürətinizdə öyrənin.",
+                "icon": "flexible"
+            },
+            {
+                "title": "Sertifikatlı Müəllimlər",
+                "description": "Tədrisə həvəsli olan təcrübəli və sertifikatlı dil müəllimlərindən öyrənin.",
+                "icon": "teachers"
+            },
+            {
+                "title": "İnteraktiv Öyrənmə",
+                "description": "İnteraktiv tapşırıqlar, real həyat ssenarilər və multimedia məzmunu ilə məşğul olun.",
+                "icon": "interactive"
+            }
+        ]
+    },
+    "languageLevels": {
+        "title": "Dil Səviyyələri",
+        "subtitle": "Hər səviyyə üçün xüsusi hazırlanmış proqramlar",
+        "skills": {
+            "speaking": "Danışıq",
+            "writing": "Yazı",
+            "listening": "Dinləmə"
+        },
+        "levels": {
+            "A1": {
+                "title": "Başlanğıc Səviyyə",
+                "description": "Gündəlik həyatda istifadə olunan sadə ifadələri başa düşmək və istifadə etmək",
+                "speaking": "Sadə dialoqlar qura bilmək",
+                "writing": "Qısa mətnlər yaza bilmək",
+                "listening": "Sadə danışıqları anlaya bilmək"
+            },
+            "A2": {
+                "title": "Elementar Səviyyə",
+                "description": "Gündəlik mövzularda ünsiyyət qura bilmək və məlumat mübadiləsi aparmaq",
+                "speaking": "Sadə söhbətlərdə iştirak edə bilmək",
+                "writing": "Şəxsi məktublar və qeydlər yaza bilmək",
+                "listening": "Yavaş və aydın danışıqları başa düşmək"
+            },
+            "B1": {
+                "title": "Orta Səviyyə",
+                "description": "Gündəlik və iş həyatında qarşılaşılan vəziyyətlərdə ünsiyyət qura bilmək",
+                "speaking": "Sərbəst söhbət edə bilmək",
+                "writing": "Detallı mətnlər yaza bilmək",
+                "listening": "Əsas fikirləri anlaya bilmək"
+            },
+            "B2": {
+                "title": "Orta-Yuxarı Səviyyə",
+                "description": "Mürəkkəb mövzularda sərbəst ünsiyyət qura bilmək",
+                "speaking": "Səlis və spontan danışa bilmək",
+                "writing": "Ətraflı və professional mətnlər yaza bilmək",
+                "listening": "Mürəkkəb danışıqları anlaya bilmək"
+            },
+            "C1": {
+                "title": "İrəli Səviyyə",
+                "description": "Akademik və professional mühitdə sərbəst ünsiyyət qura bilmək",
+                "speaking": "Mürəkkəb fikirləri ifadə edə bilmək",
+                "writing": "Akademik və professional mətnlər yaza bilmək",
+                "listening": "Uzun və mürəkkəb məruzələri anlaya bilmək"
+            },
+            "C2": {
+                "title": "Təkmil Səviyyə",
+                "description": "Ana dili səviyyəsində ünsiyyət qura bilmək",
+                "speaking": "Hər cür mövzuda sərbəst danışa bilmək",
+                "writing": "Mükəmməl yazılı ifadə qabiliyyəti",
+                "listening": "Hər cür danışığı asanlıqla anlaya bilmək"
+            }
+        }
+    },
+    "schedule": {
+        "title": "Dərs Cədvəli",
+        "subtitle": "Sizə uyğun vaxtı seçin",
+        "availability": {
+            "available": "Yer var",
+            "full": "Dolu"
+        },
+        "days": {
+            "monday": "Bazar ertəsi",
+            "tuesday": "Çərşənbə axşamı",
+            "wednesday": "Çərşənbə",
+            "thursday": "Cümə axşamı",
+            "friday": "Cümə",
+            "saturday": "Şənbə"
+        },
+        "schedule": {
+            "monday": [
+                {
+                    "time": "09:00 - 10:30",
+                    "course": "İngilis dili (A1)",
+                    "description": "Başlanğıc səviyyə qrup dərsi",
+                    "instructor": "Sarah Johnson",
+                    "availability": "available"
+                },
+                {
+                    "time": "11:00 - 12:30",
+                    "course": "Alman dili (B1)",
+                    "description": "Orta səviyyə qrup dərsi",
+                    "instructor": "Hans Weber",
+                    "availability": "available"
+                },
+                {
+                    "time": "14:00 - 15:30",
+                    "course": "İngilis dili (B2)",
+                    "description": "Orta-yuxarı səviyyə qrup dərsi",
+                    "instructor": "John Smith",
+                    "availability": "full"
+                }
+            ],
+            "tuesday": [
+                {
+                    "time": "09:00 - 10:30",
+                    "course": "Alman dili (A2)",
+                    "description": "Elementar səviyyə qrup dərsi",
+                    "instructor": "Maria Schmidt",
+                    "availability": "available"
+                },
+                {
+                    "time": "11:00 - 12:30",
+                    "course": "İngilis dili (C1)",
+                    "description": "İrəli səviyyə qrup dərsi",
+                    "instructor": "Michael Brown",
+                    "availability": "full"
+                }
+            ],
+            "wednesday": [
+                {
+                    "time": "10:00 - 11:30",
+                    "course": "İngilis dili (B1)",
+                    "description": "Orta səviyyə qrup dərsi",
+                    "instructor": "Emma Wilson",
+                    "availability": "available"
+                }
+            ],
+            "thursday": [
+                {
+                    "time": "15:00 - 16:30",
+                    "course": "Alman dili (B2)",
+                    "description": "Orta-yuxarı səviyyə qrup dərsi",
+                    "instructor": "Thomas Müller",
+                    "availability": "available"
+                }
+            ],
+            "friday": [
+                {
+                    "time": "14:00 - 15:30",
+                    "course": "İngilis dili (A1)",
+                    "description": "Başlanğıc səviyyə qrup dərsi",
+                    "instructor": "Sarah Johnson",
+                    "availability": "available"
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "10:00 - 11:30",
+                    "course": "İngilis dili (A2)",
+                    "description": "Elementar səviyyə qrup dərsi",
+                    "instructor": "John Smith",
+                    "availability": "available"
+                },
+                {
+                    "time": "12:00 - 13:30",
+                    "course": "Alman dili (A1)",
+                    "description": "Başlanğıc səviyyə qrup dərsi",
+                    "instructor": "Hans Weber",
+                    "availability": "available"
+                }
+            ]
+        }
+    },
+    "courses": {
+        "hero": {
+            "title": "Dil Kurslarımız",
+            "description": "Sizin üçün hazırlanmış professional dil kursları ilə xarici dil öyrənməyə başlayın"
+        },
+        "viewDetails": "Ətraflı Məlumat",
+        "levels": {
+            "beginner": "Başlanğıc Səviyyə",
+            "intermediate": "Orta Səviyyə",
+            "advanced": "İrəli Səviyyə"
+        },
+        "languages": [
+            {
+                "id": "english",
+                "name": "İngilis Dili",
+                "description": "Dünyanın ən çox istifadə olunan dili olan ingilis dilini öyrənin",
+                "image": "/enflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            },
+            {
+                "id": "german",
+                "name": "Alman Dili",
+                "description": "Avropanın ən güclü iqtisadiyyatının dili olan alman dilini öyrənin",
+                "image": "/deflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            },
+            {
+                "id": "french",
+                "name": "Fransız Dili",
+                "description": "Mədəniyyət və incəsənətin dili olan fransız dilini öyrənin",
+                "image": "/feflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            }
+        ],
+        "features": {
+            "title": "Kurs Xüsusiyyətləri",
+            "subtitle": "Kurslarımızın üstünlükləri",
+            "items": [
+                {
+                    "title": "Kiçik Qruplar",
+                    "description": "Maksimum 8 nəfərlik qruplar",
+                    "icon": "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                },
+                {
+                    "title": "Online Dəstək",
+                    "description": "24/7 online dəstək və resurslar",
+                    "icon": "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                },
+                {
+                    "title": "Sertifikat",
+                    "description": "Beynəlxalq sertifikatlar",
+                    "icon": "M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                },
+                {
+                    "title": "Təcrübə Proqramı",
+                    "description": "Ana dili daşıyıcıları ilə təcrübə",
+                    "icon": "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                }
+            ]
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "Haqqımızda",
+            "description": "2010-cu ildən bəri keyfiyyətli dil təhsili təqdim edirik"
+        },
+        "story": {
+            "title": "Bizim Hekayəmiz",
+            "paragraphs": [
+                "Direct Academy 2010-cu ildə Bakıda bir qrup təcrübəli müəllim tərəfindən quruldu. Məqsədimiz Azərbaycanda xarici dil təhsilinin keyfiyyətini artırmaq və beynəlxalq standartlara uyğun təhsil vermək idi.",
+                "İllər ərzində minlərlə tələbəyə xidmət göstərdik və onların xarici dil öyrənmə hədəflərinə çatmalarına kömək etdik. Müasir tədris metodlarımız və professional müəllim heyətimizlə hər zaman yüksək keyfiyyətli təhsil təqdim etməyə çalışırıq.",
+                "Bu gün Direct Academy Azərbaycanın ən böyük və ən etibarlı dil məktəblərindən biridir. Biz daim inkişaf edir və yeni texnologiyaları tətbiq edirik ki, tələbələrimizə ən yaxşı təhsil təcrübəsini təqdim edə bilək."
+            ]
+        },
+        "values": {
+            "title": "Dəyərlərimiz",
+            "subtitle": "Bizi fərqləndirən prinsiplər",
+            "items": [
+                {
+                    "title": "Keyfiyyət",
+                    "description": "Hər zaman ən yüksək təhsil standartlarını təmin edirik",
+                    "icon": "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                },
+                {
+                    "title": "İnnovasiya",
+                    "description": "Daim yeni təhsil metodlarını və texnologiyaları tətbiq edirik",
+                    "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+                },
+                {
+                    "title": "Fərdi Yanaşma",
+                    "description": "Hər tələbənin ehtiyaclarını və öyrənmə tərzini nəzərə alırıq",
+                    "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                }
+            ]
+        },
+        "team": {
+            "title": "Komandamız",
+            "subtitle": "Peşəkar və təcrübəli müəllimlərimizlə tanış olun",
+            "members": [
+                {
+                    "name": "Əli Məmmədov",
+                    "role": "Direktor",
+                    "description": "20+ il təhsil sahəsində təcrübə",
+                    "image": "/team1.jpg"
+                },
+                {
+                    "name": "Sarah Johnson",
+                    "role": "İngilis Dili Müəllimi",
+                    "description": "CELTA sertifikatlı, 10+ il təcrübə",
+                    "image": "/team2.jpg"
+                },
+                {
+                    "name": "Hans Weber",
+                    "role": "Alman Dili Müəllimi",
+                    "description": "TestDaF sertifikatlı, 8+ il təcrübə",
+                    "image": "/team3.jpg"
+                },
+                {
+                    "name": "Aygün Əliyeva",
+                    "role": "Tədris Şöbəsinin Müdiri",
+                    "description": "15+ il təhsil sahəsində təcrübə",
+                    "image": "/team4.jpg"
+                }
+            ]
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Bizimlə Əlaqə",
+            "description": "Suallarınız və ya təklifləriniz üçün bizimlə əlaqə saxlayın"
+        },
+        "form": {
+            "title": "Mesaj Göndərin",
+            "name": "Adınız",
+            "namePlaceholder": "Adınızı daxil edin",
+            "email": "E-poçt",
+            "emailPlaceholder": "E-poçt ünvanınızı daxil edin",
+            "subject": "Mövzu",
+            "subjectPlaceholder": "Mesajınızın mövzusunu daxil edin",
+            "message": "Mesaj",
+            "messagePlaceholder": "Mesajınızı daxil edin",
+            "submit": "Göndər",
+            "sending": "Göndərilir...",
+            "success": "Mesajınız uğurla göndərildi!",
+            "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+        },
+        "info": {
+            "address": {
+                "title": "Ünvan",
+                "value": "Nümunə küçəsi 1, Bakı, Azərbaycan"
+            },
+            "phone": {
+                "title": "Telefon",
+                "value": "+994 50 123 45 67"
+            },
+            "email": {
+                "title": "E-poçt",
+                "value": "info@directacademy.com"
+            },
+            "hours": {
+                "title": "İş Saatları",
+                "value": "Bazar ertəsi - Şənbə: 09:00 - 18:00"
+            }
+        }
+    }
+}

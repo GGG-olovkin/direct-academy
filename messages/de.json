@@ -1,0 +1,455 @@
+{
+    "HomePage": {
+        "title": "Hallo, Willkommen",
+        "about": "Hier wird es Informationen geben"
+    },
+    "hero": {
+        "title": "Investieren Sie in Ihre Zukunft",
+        "subtitle": "Fremdsprachen lernen ist jetzt einfacher mit Direct Academy",
+        "description": "Mit unseren professionellen Lehrern und modernen Lehrmethoden können Sie in kurzer Zeit eine Fremdsprache lernen",
+        "cta": {
+            "primary": "Entdecken Sie unsere Kurse",
+            "secondary": "Kostenlose Probestunde"
+        },
+        "stats": {
+            "students": "Absolventen",
+            "courses": "Aktive Kurse",
+            "teachers": "Professionelle Lehrer"
+        }
+    },
+    "header": {
+        "home": "Startseite",
+        "courses": "Unsere Kurse",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "language": "Sprache"
+    },
+    "footer": {
+        "quickLinks": "Schnellzugriff",
+        "home": "Startseite",
+        "courses": "Unsere Kurse",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "followUs": "Folgen Sie uns",
+        "copyright": "© 2024 Direct Academy. Alle Rechte vorbehalten.",
+        "address": "Adresse: Beispielstraße 1, Baku",
+        "phone": "Telefon: +994 50 123 45 67",
+        "email": "E-Mail: info@directacademy.com"
+    },
+    "services": {
+        "title": "Unsere Dienstleistungen",
+        "subtitle": "Bildungslösungen",
+        "items": [
+            {
+                "title": "Gruppenunterricht",
+                "description": "Interaktives Sprachenlernen in kleinen Gruppen",
+                "icon": "group"
+            },
+            {
+                "title": "Einzelunterricht",
+                "description": "Personalisierte Bildung nach Ihren Bedürfnissen",
+                "icon": "personal"
+            },
+            {
+                "title": "Online-Unterricht",
+                "description": "Bequem von zu Hause aus Sprachen lernen",
+                "icon": "online"
+            },
+            {
+                "title": "Firmentraining",
+                "description": "Speziell entwickelte Programme für Unternehmen",
+                "icon": "corporate"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "Teilnehmerstimmen",
+        "subtitle": "Erfolgsgeschichten",
+        "items": [
+            {
+                "name": "Hans Schmidt",
+                "role": "Englisch-Student",
+                "image": "/testimonials/1.jpg",
+                "text": "Dank Direct Academy habe ich in 6 Monaten das B2-Niveau erreicht. Die Professionalität und Unterstützung der Lehrer ist unbezahlbar."
+            },
+            {
+                "name": "Maria Weber",
+                "role": "Deutsch-Studentin",
+                "image": "/testimonials/2.jpg",
+                "text": "Der Online-Unterricht war sehr praktisch für mich. Ich kann nach der Arbeit von zu Hause aus am Unterricht teilnehmen."
+            },
+            {
+                "name": "Thomas Müller",
+                "role": "Firmenkunde",
+                "image": "/testimonials/3.jpg",
+                "text": "Das speziell für unser Unternehmen entwickelte Programm war sehr effektiv. Unsere Mitarbeiter haben in kurzer Zeit große Fortschritte gemacht."
+            }
+        ]
+    },
+    "whyUs": {
+        "title": "Warum Direct Academy?",
+        "subtitle": "Erleben Sie einen revolutionären Ansatz zum Sprachenlernen mit unseren umfassenden und innovativen Lehrmethoden",
+        "features": [
+            {
+                "title": "Umfassende Kurse",
+                "description": "Breites Angebot an Sprachkursen für alle Niveaus, von Anfänger bis Fortgeschrittene.",
+                "icon": "courses"
+            },
+            {
+                "title": "Fortschritt verfolgen",
+                "description": "Verfolgen Sie Ihren Lernfortschritt mit detailliertem Tracking und Leistungsanalysen.",
+                "icon": "progress"
+            },
+            {
+                "title": "Aktive Gemeinschaft",
+                "description": "Werden Sie Teil einer lebendigen Gemeinschaft von Sprachlernenden und üben Sie mit Muttersprachlern weltweit.",
+                "icon": "community"
+            },
+            {
+                "title": "Flexibles Lernen",
+                "description": "Lernen Sie in Ihrem eigenen Tempo mit flexiblen Zeitplänen und Online-Lernoptionen.",
+                "icon": "flexible"
+            },
+            {
+                "title": "Zertifizierte Lehrer",
+                "description": "Lernen Sie von erfahrenen und zertifizierten Sprachlehrern mit Leidenschaft fürs Unterrichten.",
+                "icon": "teachers"
+            },
+            {
+                "title": "Interaktives Lernen",
+                "description": "Beschäftigen Sie sich mit interaktiven Übungen, realen Szenarien und Multimedia-Inhalten.",
+                "icon": "interactive"
+            }
+        ]
+    },
+    "languageLevels": {
+        "title": "Sprachniveaus",
+        "subtitle": "Speziell entwickelte Programme für jedes Niveau",
+        "skills": {
+            "speaking": "Sprechen",
+            "writing": "Schreiben",
+            "listening": "Hören"
+        },
+        "levels": {
+            "A1": {
+                "title": "Anfängerniveau",
+                "description": "Grundlegende Ausdrücke des Alltags verstehen und verwenden",
+                "speaking": "Kann einfache Dialoge führen",
+                "writing": "Kann kurze Texte schreiben",
+                "listening": "Kann einfache Gespräche verstehen"
+            },
+            "A2": {
+                "title": "Grundlegendes Niveau",
+                "description": "Kann über alltägliche Themen kommunizieren und Informationen austauschen",
+                "speaking": "Kann an einfachen Gesprächen teilnehmen",
+                "writing": "Kann persönliche Briefe und Notizen schreiben",
+                "listening": "Kann langsame und deutliche Sprache verstehen"
+            },
+            "B1": {
+                "title": "Mittelstufe",
+                "description": "Kann in Alltags- und Arbeitssituationen kommunizieren",
+                "speaking": "Kann frei sprechen",
+                "writing": "Kann detaillierte Texte schreiben",
+                "listening": "Kann Hauptideen verstehen"
+            },
+            "B2": {
+                "title": "Fortgeschrittene Mittelstufe",
+                "description": "Kann über komplexe Themen frei kommunizieren",
+                "speaking": "Kann flüssig und spontan sprechen",
+                "writing": "Kann detaillierte und professionelle Texte schreiben",
+                "listening": "Kann komplexe Gespräche verstehen"
+            },
+            "C1": {
+                "title": "Fortgeschrittenes Niveau",
+                "description": "Kann in akademischen und beruflichen Umgebungen frei kommunizieren",
+                "speaking": "Kann komplexe Ideen ausdrücken",
+                "writing": "Kann akademische und professionelle Texte schreiben",
+                "listening": "Kann lange und komplexe Vorträge verstehen"
+            },
+            "C2": {
+                "title": "Meisterniveau",
+                "description": "Kann auf muttersprachlichem Niveau kommunizieren",
+                "speaking": "Kann über jedes Thema frei sprechen",
+                "writing": "Perfekte schriftliche Ausdrucksfähigkeit",
+                "listening": "Kann jedes Gespräch mühelos verstehen"
+            }
+        }
+    },
+    "schedule": {
+        "title": "Stundenplan",
+        "subtitle": "Wählen Sie die Zeit, die Ihnen am besten passt",
+        "availability": {
+            "available": "Verfügbar",
+            "full": "Ausgebucht"
+        },
+        "days": {
+            "monday": "Montag",
+            "tuesday": "Dienstag",
+            "wednesday": "Mittwoch",
+            "thursday": "Donnerstag",
+            "friday": "Freitag",
+            "saturday": "Samstag"
+        },
+        "schedule": {
+            "monday": [
+                {
+                    "time": "09:00 - 10:30",
+                    "course": "Englisch (A1)",
+                    "description": "Anfängerkurs in der Gruppe",
+                    "instructor": "Sarah Johnson",
+                    "availability": "available"
+                },
+                {
+                    "time": "11:00 - 12:30",
+                    "course": "Deutsch (B1)",
+                    "description": "Mittelstufenkurs in der Gruppe",
+                    "instructor": "Hans Weber",
+                    "availability": "available"
+                },
+                {
+                    "time": "14:00 - 15:30",
+                    "course": "Englisch (B2)",
+                    "description": "Fortgeschrittener Kurs in der Gruppe",
+                    "instructor": "John Smith",
+                    "availability": "full"
+                }
+            ],
+            "tuesday": [
+                {
+                    "time": "09:00 - 10:30",
+                    "course": "Deutsch (A2)",
+                    "description": "Grundstufenkurs in der Gruppe",
+                    "instructor": "Maria Schmidt",
+                    "availability": "available"
+                },
+                {
+                    "time": "11:00 - 12:30",
+                    "course": "Englisch (C1)",
+                    "description": "Fortgeschrittener Kurs in der Gruppe",
+                    "instructor": "Michael Brown",
+                    "availability": "full"
+                }
+            ],
+            "wednesday": [
+                {
+                    "time": "10:00 - 11:30",
+                    "course": "Englisch (B1)",
+                    "description": "Mittelstufenkurs in der Gruppe",
+                    "instructor": "Emma Wilson",
+                    "availability": "available"
+                }
+            ],
+            "thursday": [
+                {
+                    "time": "15:00 - 16:30",
+                    "course": "Deutsch (B2)",
+                    "description": "Fortgeschrittener Kurs in der Gruppe",
+                    "instructor": "Thomas Müller",
+                    "availability": "available"
+                }
+            ],
+            "friday": [
+                {
+                    "time": "14:00 - 15:30",
+                    "course": "Englisch (A1)",
+                    "description": "Anfängerkurs in der Gruppe",
+                    "instructor": "Sarah Johnson",
+                    "availability": "available"
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "10:00 - 11:30",
+                    "course": "Englisch (A2)",
+                    "description": "Grundstufenkurs in der Gruppe",
+                    "instructor": "John Smith",
+                    "availability": "available"
+                },
+                {
+                    "time": "12:00 - 13:30",
+                    "course": "Deutsch (A1)",
+                    "description": "Anfängerkurs in der Gruppe",
+                    "instructor": "Hans Weber",
+                    "availability": "available"
+                }
+            ]
+        }
+    },
+    "courses": {
+        "hero": {
+            "title": "Unsere Sprachkurse",
+            "description": "Beginnen Sie mit unseren professionell gestalteten Sprachkursen eine Fremdsprache zu lernen"
+        },
+        "viewDetails": "Mehr Details",
+        "levels": {
+            "beginner": "Anfängerniveau",
+            "intermediate": "Mittelstufe",
+            "advanced": "Fortgeschrittenes Niveau"
+        },
+        "languages": [
+            {
+                "id": "english",
+                "name": "Englisch",
+                "description": "Lernen Sie Englisch, die meistgesprochene Sprache der Welt",
+                "image": "/enflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            },
+            {
+                "id": "german",
+                "name": "Deutsch",
+                "description": "Lernen Sie Deutsch, die Sprache der stärksten Wirtschaft Europas",
+                "image": "/deflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            },
+            {
+                "id": "french",
+                "name": "Französisch",
+                "description": "Lernen Sie Französisch, die Sprache der Kultur und Kunst",
+                "image": "/feflag.jpg",
+                "levels": [
+                    "beginner",
+                    "intermediate",
+                    "advanced"
+                ]
+            }
+        ],
+        "features": {
+            "title": "Kursmerkmale",
+            "subtitle": "Vorteile unserer Kurse",
+            "items": [
+                {
+                    "title": "Kleine Gruppen",
+                    "description": "Maximal 8 Teilnehmer pro Gruppe",
+                    "icon": "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                },
+                {
+                    "title": "Online-Unterstützung",
+                    "description": "24/7 Online-Support und Ressourcen",
+                    "icon": "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                },
+                {
+                    "title": "Zertifikat",
+                    "description": "Internationale Zertifikate",
+                    "icon": "M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                },
+                {
+                    "title": "Übungsprogramm",
+                    "description": "Üben Sie mit Muttersprachlern",
+                    "icon": "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                }
+            ]
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Kontakt",
+            "description": "Kontaktieren Sie uns für Fragen oder Anregungen"
+        },
+        "form": {
+            "title": "Nachricht senden",
+            "name": "Ihr Name",
+            "namePlaceholder": "Geben Sie Ihren Namen ein",
+            "email": "E-Mail",
+            "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+            "subject": "Betreff",
+            "subjectPlaceholder": "Geben Sie den Betreff ein",
+            "message": "Nachricht",
+            "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
+            "submit": "Senden",
+            "sending": "Wird gesendet...",
+            "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+            "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        },
+        "info": {
+            "address": {
+                "title": "Adresse",
+                "value": "Beispielstraße 1, Baku, Aserbaidschan"
+            },
+            "phone": {
+                "title": "Telefon",
+                "value": "+994 50 123 45 67"
+            },
+            "email": {
+                "title": "E-Mail",
+                "value": "info@directacademy.com"
+            },
+            "hours": {
+                "title": "Öffnungszeiten",
+                "value": "Montag - Samstag: 09:00 - 18:00"
+            }
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "Über uns",
+            "description": "Qualitativ hochwertige Sprachausbildung seit 2010"
+        },
+        "story": {
+            "title": "Unsere Geschichte",
+            "paragraphs": [
+                "Direct Academy wurde 2010 in Baku von einer Gruppe erfahrener Lehrer gegründet. Unser Ziel war es, die Qualität des Fremdsprachenunterrichts in Aserbaidschan zu verbessern und Bildung nach internationalen Standards anzubieten.",
+                "Im Laufe der Jahre haben wir Tausende von Studenten betreut und ihnen geholfen, ihre Ziele beim Fremdsprachenlernen zu erreichen. Mit unseren modernen Lehrmethoden und unserem professionellen Lehrkörper streben wir stets danach, hochwertige Bildung anzubieten.",
+                "Heute ist Direct Academy eine der größten und zuverlässigsten Sprachschulen in Aserbaidschan. Wir entwickeln uns ständig weiter und implementieren neue Technologien, um unseren Schülern die beste Lernerfahrung zu bieten."
+            ]
+        },
+        "values": {
+            "title": "Unsere Werte",
+            "subtitle": "Prinzipien, die uns auszeichnen",
+            "items": [
+                {
+                    "title": "Qualität",
+                    "description": "Wir gewährleisten stets höchste Bildungsstandards",
+                    "icon": "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                },
+                {
+                    "title": "Innovation",
+                    "description": "Wir implementieren kontinuierlich neue Lehrmethoden und Technologien",
+                    "icon": "M13 10V3L4 14h7v7l9-11h-7z"
+                },
+                {
+                    "title": "Persönlicher Ansatz",
+                    "description": "Wir berücksichtigen die Bedürfnisse und den Lernstil jedes Schülers",
+                    "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                }
+            ]
+        },
+        "team": {
+            "title": "Unser Team",
+            "subtitle": "Lernen Sie unsere professionellen und erfahrenen Lehrer kennen",
+            "members": [
+                {
+                    "name": "Ali Mammadov",
+                    "role": "Direktor",
+                    "description": "Über 20 Jahre Erfahrung im Bildungsbereich",
+                    "image": "/team1.jpg"
+                },
+                {
+                    "name": "Sarah Johnson",
+                    "role": "Englischlehrerin",
+                    "description": "CELTA-zertifiziert, über 10 Jahre Erfahrung",
+                    "image": "/team2.jpg"
+                },
+                {
+                    "name": "Hans Weber",
+                    "role": "Deutschlehrer",
+                    "description": "TestDaF-zertifiziert, über 8 Jahre Erfahrung",
+                    "image": "/team3.jpg"
+                },
+                {
+                    "name": "Aygun Aliyeva",
+                    "role": "Leiterin der akademischen Abteilung",
+                    "description": "Über 15 Jahre Erfahrung im Bildungsbereich",
+                    "image": "/team4.jpg"
+                }
+            ]
+        }
+    }
+}
