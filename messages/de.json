@@ -194,84 +194,124 @@
         "schedule": {
             "monday": [
                 {
-                    "time": "09:00 - 10:30",
-                    "course": "Englisch (A1)",
+                    "times": [
+                        "09:00 - 10:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "Englisch",
                     "description": "Anfängerkurs in der Gruppe",
-                    "instructor": "Sarah Johnson",
-                    "availability": "available"
+                    "instructor": "Sarah Johnson"
                 },
                 {
-                    "time": "11:00 - 12:30",
+                    "times": [
+                        "11:00 - 12:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "Deutsch (B1)",
                     "description": "Mittelstufenkurs in der Gruppe",
-                    "instructor": "Hans Weber",
-                    "availability": "available"
+                    "instructor": "Hans Weber"
                 },
                 {
-                    "time": "14:00 - 15:30",
+                    "times": [
+                        "14:00 - 15:30"
+                    ],
+                    "levels": [
+                        "full"
+                    ],
                     "course": "Englisch (B2)",
                     "description": "Fortgeschrittener Kurs in der Gruppe",
-                    "instructor": "John Smith",
-                    "availability": "full"
+                    "instructor": "John Smith"
                 }
             ],
             "tuesday": [
                 {
-                    "time": "09:00 - 10:30",
-                    "course": "Deutsch (A2)",
+                    "times": [
+                        "09:00 - 10:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "Deutsch",
                     "description": "Grundstufenkurs in der Gruppe",
-                    "instructor": "Maria Schmidt",
-                    "availability": "available"
+                    "instructor": "Maria Schmidt"
                 },
                 {
-                    "time": "11:00 - 12:30",
+                    "times": [
+                        "11:00 - 12:30"
+                    ],
+                    "levels": [
+                        "full"
+                    ],
                     "course": "Englisch (C1)",
                     "description": "Fortgeschrittener Kurs in der Gruppe",
-                    "instructor": "Michael Brown",
-                    "availability": "full"
+                    "instructor": "Michael Brown"
                 }
             ],
             "wednesday": [
                 {
-                    "time": "10:00 - 11:30",
-                    "course": "Englisch (B1)",
+                    "times": [
+                        "10:00 - 11:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "Englisch",
                     "description": "Mittelstufenkurs in der Gruppe",
-                    "instructor": "Emma Wilson",
-                    "availability": "available"
+                    "instructor": "Emma Wilson"
                 }
             ],
             "thursday": [
                 {
-                    "time": "15:00 - 16:30",
+                    "times": [
+                        "15:00 - 16:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "Deutsch (B2)",
                     "description": "Fortgeschrittener Kurs in der Gruppe",
-                    "instructor": "Thomas Müller",
-                    "availability": "available"
+                    "instructor": "Thomas Müller"
                 }
             ],
             "friday": [
                 {
-                    "time": "14:00 - 15:30",
-                    "course": "Englisch (A1)",
+                    "times": [
+                        "14:00 - 15:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "Englisch",
                     "description": "Anfängerkurs in der Gruppe",
-                    "instructor": "Sarah Johnson",
-                    "availability": "available"
+                    "instructor": "Sarah Johnson"
                 }
             ],
             "saturday": [
                 {
-                    "time": "10:00 - 11:30",
+                    "times": [
+                        "10:00 - 11:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "Englisch (A2)",
                     "description": "Grundstufenkurs in der Gruppe",
-                    "instructor": "John Smith",
-                    "availability": "available"
+                    "instructor": "John Smith"
                 },
                 {
-                    "time": "12:00 - 13:30",
+                    "times": [
+                        "12:00 - 13:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "Deutsch (A1)",
                     "description": "Anfängerkurs in der Gruppe",
-                    "instructor": "Hans Weber",
-                    "availability": "available"
+                    "instructor": "Hans Weber"
                 }
             ]
         }
@@ -279,13 +319,13 @@
     "courses": {
         "hero": {
             "title": "Unsere Sprachkurse",
-            "description": "Beginnen Sie mit unseren professionell gestalteten Sprachkursen eine Fremdsprache zu lernen"
+            "description": "Beginnen Sie mit professionellen Sprachkursen, die für Sie entwickelt wurden"
         },
-        "viewDetails": "Mehr Details",
+        "viewDetails": "Details anzeigen",
         "levels": {
             "beginner": "Anfängerniveau",
             "intermediate": "Mittelstufe",
-            "advanced": "Fortgeschrittenes Niveau"
+            "advanced": "Fortgeschrittene"
         },
         "languages": [
             {
@@ -349,45 +389,6 @@
             ]
         }
     },
-    "contact": {
-        "hero": {
-            "title": "Kontakt",
-            "description": "Kontaktieren Sie uns für Fragen oder Anregungen"
-        },
-        "form": {
-            "title": "Nachricht senden",
-            "name": "Ihr Name",
-            "namePlaceholder": "Geben Sie Ihren Namen ein",
-            "email": "E-Mail",
-            "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
-            "subject": "Betreff",
-            "subjectPlaceholder": "Geben Sie den Betreff ein",
-            "message": "Nachricht",
-            "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
-            "submit": "Senden",
-            "sending": "Wird gesendet...",
-            "success": "Ihre Nachricht wurde erfolgreich gesendet!",
-            "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
-        },
-        "info": {
-            "address": {
-                "title": "Adresse",
-                "value": "Beispielstraße 1, Baku, Aserbaidschan"
-            },
-            "phone": {
-                "title": "Telefon",
-                "value": "+994 50 123 45 67"
-            },
-            "email": {
-                "title": "E-Mail",
-                "value": "info@directacademy.com"
-            },
-            "hours": {
-                "title": "Öffnungszeiten",
-                "value": "Montag - Samstag: 09:00 - 18:00"
-            }
-        }
-    },
     "about": {
         "hero": {
             "title": "Über uns",
@@ -396,9 +397,9 @@
         "story": {
             "title": "Unsere Geschichte",
             "paragraphs": [
-                "Direct Academy wurde 2010 in Baku von einer Gruppe erfahrener Lehrer gegründet. Unser Ziel war es, die Qualität des Fremdsprachenunterrichts in Aserbaidschan zu verbessern und Bildung nach internationalen Standards anzubieten.",
-                "Im Laufe der Jahre haben wir Tausende von Studenten betreut und ihnen geholfen, ihre Ziele beim Fremdsprachenlernen zu erreichen. Mit unseren modernen Lehrmethoden und unserem professionellen Lehrkörper streben wir stets danach, hochwertige Bildung anzubieten.",
-                "Heute ist Direct Academy eine der größten und zuverlässigsten Sprachschulen in Aserbaidschan. Wir entwickeln uns ständig weiter und implementieren neue Technologien, um unseren Schülern die beste Lernerfahrung zu bieten."
+                "Direct Academy wurde 2010 in Baku von einer Gruppe erfahrener Lehrer gegründet. Unser Ziel war es, die Qualität der Fremdsprachenausbildung in Aserbaidschan zu verbessern und Bildung nach internationalen Standards anzubieten.",
+                "Im Laufe der Jahre haben wir Tausende von Studenten betreut und ihnen geholfen, ihre Fremdsprachenlernziele zu erreichen. Mit unseren modernen Lehrmethoden und professionellem Lehrpersonal streben wir stets danach, hochwertige Bildung anzubieten.",
+                "Heute ist Direct Academy eine der größten und zuverlässigsten Sprachschulen in Aserbaidschan. Wir entwickeln uns ständig weiter und implementieren neue Technologien, um unseren Studenten die beste Lernerfahrung zu bieten."
             ]
         },
         "values": {
@@ -407,17 +408,17 @@
             "items": [
                 {
                     "title": "Qualität",
-                    "description": "Wir gewährleisten stets höchste Bildungsstandards",
+                    "description": "Wir gewährleisten stets die höchsten Bildungsstandards",
                     "icon": "M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                 },
                 {
                     "title": "Innovation",
-                    "description": "Wir implementieren kontinuierlich neue Lehrmethoden und Technologien",
+                    "description": "Wir implementieren ständig neue Bildungsmethoden und Technologien",
                     "icon": "M13 10V3L4 14h7v7l9-11h-7z"
                 },
                 {
                     "title": "Persönlicher Ansatz",
-                    "description": "Wir berücksichtigen die Bedürfnisse und den Lernstil jedes Schülers",
+                    "description": "Wir berücksichtigen die Bedürfnisse und den Lernstil jedes Studenten",
                     "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                 }
             ]
@@ -446,11 +447,50 @@
                 },
                 {
                     "name": "Aygun Aliyeva",
-                    "role": "Leiterin der akademischen Abteilung",
+                    "role": "Leiterin der Bildungsabteilung",
                     "description": "Über 15 Jahre Erfahrung im Bildungsbereich",
                     "image": "/team4.jpg"
                 }
             ]
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Kontakt",
+            "description": "Kontaktieren Sie uns für Ihre Fragen oder Anregungen"
+        },
+        "form": {
+            "title": "Nachricht senden",
+            "name": "Ihr Name",
+            "namePlaceholder": "Geben Sie Ihren Namen ein",
+            "email": "E-Mail",
+            "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+            "subject": "Betreff",
+            "subjectPlaceholder": "Geben Sie den Betreff Ihrer Nachricht ein",
+            "message": "Nachricht",
+            "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
+            "submit": "Senden",
+            "sending": "Wird gesendet...",
+            "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+            "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        },
+        "info": {
+            "address": {
+                "title": "Adresse",
+                "value": "Beispielstraße 1, Baku, Aserbaidschan"
+            },
+            "phone": {
+                "title": "Telefon",
+                "value": "+994 50 123 45 67"
+            },
+            "email": {
+                "title": "E-Mail",
+                "value": "info@directacademy.com"
+            },
+            "hours": {
+                "title": "Öffnungszeiten",
+                "value": "Montag - Samstag: 09:00 - 18:00"
+            }
         }
     }
 }

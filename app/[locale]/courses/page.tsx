@@ -64,7 +64,7 @@ const CoursesPage = () => {
                     animate="visible"
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                 >
-                    {t.raw('courses.languages').map((language: Language) => (
+                    {t.raw('languages').map((language: Language) => (
                         <motion.div
                             key={language.id}
                             variants={itemVariants}
@@ -123,7 +123,7 @@ const CoursesPage = () => {
                     animate="visible"
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
                 >
-                    {t.raw('courses.features.items').map((feature: Feature) => (
+                    {t.raw('features.items').map((feature: Feature) => (
                         <motion.div
                             key={feature.title}
                             variants={itemVariants}

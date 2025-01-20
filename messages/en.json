@@ -194,84 +194,124 @@
         "schedule": {
             "monday": [
                 {
-                    "time": "09:00 - 10:30",
-                    "course": "English (A1)",
+                    "times": [
+                        "09:00 - 10:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "English",
                     "description": "Beginner level group class",
-                    "instructor": "Sarah Johnson",
-                    "availability": "available"
+                    "instructor": "Sarah Johnson"
                 },
                 {
-                    "time": "11:00 - 12:30",
+                    "times": [
+                        "11:00 - 12:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "German (B1)",
                     "description": "Intermediate level group class",
-                    "instructor": "Hans Weber",
-                    "availability": "available"
+                    "instructor": "Hans Weber"
                 },
                 {
-                    "time": "14:00 - 15:30",
+                    "times": [
+                        "14:00 - 15:30"
+                    ],
+                    "levels": [
+                        "full"
+                    ],
                     "course": "English (B2)",
                     "description": "Upper intermediate level group class",
-                    "instructor": "John Smith",
-                    "availability": "full"
+                    "instructor": "John Smith"
                 }
             ],
             "tuesday": [
                 {
-                    "time": "09:00 - 10:30",
-                    "course": "German (A2)",
+                    "times": [
+                        "09:00 - 10:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "German",
                     "description": "Elementary level group class",
-                    "instructor": "Maria Schmidt",
-                    "availability": "available"
+                    "instructor": "Maria Schmidt"
                 },
                 {
-                    "time": "11:00 - 12:30",
+                    "times": [
+                        "11:00 - 12:30"
+                    ],
+                    "levels": [
+                        "full"
+                    ],
                     "course": "English (C1)",
                     "description": "Advanced level group class",
-                    "instructor": "Michael Brown",
-                    "availability": "full"
+                    "instructor": "Michael Brown"
                 }
             ],
             "wednesday": [
                 {
-                    "time": "10:00 - 11:30",
-                    "course": "English (B1)",
+                    "times": [
+                        "10:00 - 11:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "English",
                     "description": "Intermediate level group class",
-                    "instructor": "Emma Wilson",
-                    "availability": "available"
+                    "instructor": "Emma Wilson"
                 }
             ],
             "thursday": [
                 {
-                    "time": "15:00 - 16:30",
+                    "times": [
+                        "15:00 - 16:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "German (B2)",
                     "description": "Upper intermediate level group class",
-                    "instructor": "Thomas Müller",
-                    "availability": "available"
+                    "instructor": "Thomas Müller"
                 }
             ],
             "friday": [
                 {
-                    "time": "14:00 - 15:30",
-                    "course": "English (A1)",
+                    "times": [
+                        "14:00 - 15:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
+                    "course": "English",
                     "description": "Beginner level group class",
-                    "instructor": "Sarah Johnson",
-                    "availability": "available"
+                    "instructor": "Sarah Johnson"
                 }
             ],
             "saturday": [
                 {
-                    "time": "10:00 - 11:30",
+                    "times": [
+                        "10:00 - 11:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "English (A2)",
                     "description": "Elementary level group class",
-                    "instructor": "John Smith",
-                    "availability": "available"
+                    "instructor": "John Smith"
                 },
                 {
-                    "time": "12:00 - 13:30",
+                    "times": [
+                        "12:00 - 13:30"
+                    ],
+                    "levels": [
+                        "available"
+                    ],
                     "course": "German (A1)",
                     "description": "Beginner level group class",
-                    "instructor": "Hans Weber",
-                    "availability": "available"
+                    "instructor": "Hans Weber"
                 }
             ]
         }
@@ -279,7 +319,7 @@
     "courses": {
         "hero": {
             "title": "Our Language Courses",
-            "description": "Start learning a foreign language with our professionally designed language courses"
+            "description": "Start learning a foreign language with professional language courses designed for you"
         },
         "viewDetails": "View Details",
         "levels": {
@@ -324,7 +364,7 @@
         ],
         "features": {
             "title": "Course Features",
-            "subtitle": "Benefits of our courses",
+            "subtitle": "Advantages of our courses",
             "items": [
                 {
                     "title": "Small Groups",
@@ -349,45 +389,6 @@
             ]
         }
     },
-    "contact": {
-        "hero": {
-            "title": "Contact Us",
-            "description": "Get in touch with us for any questions or suggestions"
-        },
-        "form": {
-            "title": "Send Message",
-            "name": "Your Name",
-            "namePlaceholder": "Enter your name",
-            "email": "Email",
-            "emailPlaceholder": "Enter your email address",
-            "subject": "Subject",
-            "subjectPlaceholder": "Enter message subject",
-            "message": "Message",
-            "messagePlaceholder": "Enter your message",
-            "submit": "Send",
-            "sending": "Sending...",
-            "success": "Your message has been sent successfully!",
-            "error": "An error occurred. Please try again."
-        },
-        "info": {
-            "address": {
-                "title": "Address",
-                "value": "Example Street 1, Baku, Azerbaijan"
-            },
-            "phone": {
-                "title": "Phone",
-                "value": "+994 50 123 45 67"
-            },
-            "email": {
-                "title": "Email",
-                "value": "info@directacademy.com"
-            },
-            "hours": {
-                "title": "Working Hours",
-                "value": "Monday - Saturday: 09:00 - 18:00"
-            }
-        }
-    },
     "about": {
         "hero": {
             "title": "About Us",
@@ -396,7 +397,7 @@
         "story": {
             "title": "Our Story",
             "paragraphs": [
-                "Direct Academy was founded in 2010 in Baku by a group of experienced teachers. Our goal was to improve the quality of foreign language education in Azerbaijan and provide education according to international standards.",
+                "Direct Academy was established in Baku in 2010 by a group of experienced teachers. Our goal was to improve the quality of foreign language education in Azerbaijan and provide education according to international standards.",
                 "Over the years, we have served thousands of students and helped them achieve their foreign language learning goals. With our modern teaching methods and professional teaching staff, we always strive to provide high-quality education.",
                 "Today, Direct Academy is one of the largest and most reliable language schools in Azerbaijan. We are constantly developing and implementing new technologies to provide our students with the best educational experience."
             ]
@@ -412,7 +413,7 @@
                 },
                 {
                     "title": "Innovation",
-                    "description": "We continuously implement new teaching methods and technologies",
+                    "description": "We constantly implement new educational methods and technologies",
                     "icon": "M13 10V3L4 14h7v7l9-11h-7z"
                 },
                 {
@@ -446,11 +447,50 @@
                 },
                 {
                     "name": "Aygun Aliyeva",
-                    "role": "Head of Academic Department",
+                    "role": "Head of Education Department",
                     "description": "15+ years experience in education",
                     "image": "/team4.jpg"
                 }
             ]
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Contact Us",
+            "description": "Contact us for your questions or suggestions"
+        },
+        "form": {
+            "title": "Send Message",
+            "name": "Your Name",
+            "namePlaceholder": "Enter your name",
+            "email": "Email",
+            "emailPlaceholder": "Enter your email address",
+            "subject": "Subject",
+            "subjectPlaceholder": "Enter the subject of your message",
+            "message": "Message",
+            "messagePlaceholder": "Enter your message",
+            "submit": "Send",
+            "sending": "Sending...",
+            "success": "Your message has been sent successfully!",
+            "error": "An error occurred. Please try again."
+        },
+        "info": {
+            "address": {
+                "title": "Address",
+                "value": "Example Street 1, Baku, Azerbaijan"
+            },
+            "phone": {
+                "title": "Phone",
+                "value": "+994 50 123 45 67"
+            },
+            "email": {
+                "title": "Email",
+                "value": "info@directacademy.com"
+            },
+            "hours": {
+                "title": "Working Hours",
+                "value": "Monday - Saturday: 09:00 - 18:00"
+            }
         }
     }
 }
