@@ -18,7 +18,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative overflow-x-hidden bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+    <section style={{ backgroundImage: 'url(/bg-3.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }} className="relative overflow-x-hidden bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
       {/* Decorative Elements */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute -left-20 -top-20 h-40 sm:h-80 w-40 sm:w-80 rounded-full bg-primary/10 blur-[100px]"></div>
@@ -26,12 +26,12 @@ const Hero = () => {
         <div className="absolute bottom-0 left-1/2 h-32 sm:h-64 w-32 sm:w-64 -translate-x-1/2 rounded-full bg-purple-100/50 blur-[80px] dark:bg-purple-900/30"></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 pt-[70px] pb-16 md:pt-[100px] md:pb-[100px] xl:pt-[100px] xl:pb-[160px] 2xl:pt-[140px] 2xl:pb-[200px]">
+      <div style={{ backdropFilter: 'blur(10px) brightness(0.8)' }} className="container mx-auto px-4 relative z-10 pt-[70px] pb-16 md:pt-[100px] md:pb-[100px] xl:pt-[100px] xl:pb-[160px] 2xl:pt-[140px] 2xl:pb-[200px]">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           {/* Text Content */}
           <div className="w-full lg:w-1/2">
             <div className="text-center lg:text-left max-w-2xl mx-auto lg:mx-0">
-              <h1 className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-bold !leading-tight text-black dark:text-white">
+              <h1 className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-bold !leading-tight text-black  text-white">
                 {t('sections.hero.title')}
                 <span className="relative inline-block text-primary">
                   Direct Academy
@@ -64,15 +64,15 @@ const Hero = () => {
               {/* Stats */}
               <div className="mt-8 sm:mt-12 grid grid-cols-3 gap-4 sm:gap-8">
                 <div className="text-center">
-                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-black dark:text-white">500+</h4>
+                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-white">500+</h4>
                   <p className="text-xs sm:text-sm text-body-color dark:text-body-color-dark">Öğrenci</p>
                 </div>
                 <div className="text-center">
-                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-black dark:text-white">15+</h4>
+                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-white">15+</h4>
                   <p className="text-xs sm:text-sm text-body-color dark:text-body-color-dark">Öğretmen</p>
                 </div>
                 <div className="text-center">
-                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-black dark:text-white">98%</h4>
+                  <h4 className="mb-2 text-2xl sm:text-3xl font-bold text-white">98%</h4>
                   <p className="text-xs sm:text-sm text-body-color dark:text-body-color-dark">Başarı</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Hero = () => {
             <div className="relative mx-auto max-w-[500px] lg:mr-0">
               <div className="relative aspect-square">
                 <Image
-                  src="/bg.jpg"
+                  src="/side.png"
                   alt="hero"
                   fill
                   priority
